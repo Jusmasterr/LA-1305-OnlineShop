@@ -11,7 +11,6 @@ Im Moment behandeln wir das Modul 165, das sich mit NoSql befasst. Aus diesem Gr
 | US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                                  |
 | ---- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Muss            | Funktional | Als User möchte ich, dass die Tabellen automatisch erstellt werden, um Zeit zu sparen.                                                                       |
-
 | 2    | Muss            | Funktional | Als User möchte ich, dass Hersteller, Kategorien und Produkte automatisch eingefügt werden.                                                                  |
 | 3    | Muss            | Funktional | Als User möchte ich einen Datensatz löschen können.                                                                                                           |
 | 4    | Muss            | Funktional | Als User möchte ich einen Datensatz aktualisieren können.                                                                                                      |
