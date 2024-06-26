@@ -11,10 +11,10 @@ Im Moment behandeln wir das Modul 165, das sich mit NoSql befasst. Aus diesem Gr
 | US-№ | Verbindlichkeit | Typ        | Beschreibung                                                                                                                                                  |
 | ---- | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | Muss            | Funktional | Als User möchte ich, dass die Tabellen automatisch erstellt werden, um Zeit zu sparen.                                                                       |
-| 2    | Muss            | Funktional | Als User möchte ich selbst einen Hersteller, eine Kategorie oder ein Produkt zur Datenbank hinzufügen können.                                                  |
-| 3    | Muss            | Funktional | Als User möchte ich, dass Hersteller, Kategorien und Produkte automatisch eingefügt werden.                                                                  |
-| 4    | Muss            | Funktional | Als User möchte ich einen Datensatz löschen können.                                                                                                           |
-| 5    | Muss            | Funktional | Als User möchte ich einen Datensatz aktualisieren können.                                                                                                      |
+
+| 2    | Muss            | Funktional | Als User möchte ich, dass Hersteller, Kategorien und Produkte automatisch eingefügt werden.                                                                  |
+| 3    | Muss            | Funktional | Als User möchte ich einen Datensatz löschen können.                                                                                                           |
+| 4    | Muss            | Funktional | Als User möchte ich einen Datensatz aktualisieren können.                                                                                                      |
 
 
 ### Testfälle
@@ -22,10 +22,9 @@ Im Moment behandeln wir das Modul 165, das sich mit NoSql befasst. Aus diesem Gr
 | TC-№ | Ausgangslage                                 | Eingabe                                          | Erwartete Ausgabe                               |
 | ---- | -------------------------------------------- | ------------------------------------------------ | ------------------------------------------------ |
 | 1.1  | Automatisches Erstellen von Tabellen           | -                                                | Tabellen werden automatisch erstellt.            |
-| 2.1  | Hinzufügen eines Herstellers, einer Kategorie oder eines Produkts | -                                              | Der Hersteller, die Kategorie oder das Produkt wird zur Datenbank hinzugefügt. |
-| 3.1  | Automatisches Einfügen von Herstellern, Kategorien und Produkten | -                                              | Hersteller, Kategorien und Produkte werden automatisch in die Datenbank eingefügt. |
-| 4.1  | Löschen eines Datensatzes                      | -                                                | Der ausgewählte Datensatz wird erfolgreich gelöscht. |
-| 5.1  | Aktualisieren eines Datensatzes                | -                                                | Der ausgewählte Datensatz wird erfolgreich aktualisiert. |
+| 2.1  | Automatisches Einfügen von Herstellern, Kategorien und Produkten | -                                              | Hersteller, Kategorien und Produkte werden automatisch in die Datenbank eingefügt. |
+| 3.1  | Löschen eines Datensatzes                      | -                                                | Der ausgewählte Datensatz wird erfolgreich gelöscht. |
+| 4.1  | Aktualisieren eines Datensatzes                | -                                                | Der ausgewählte Datensatz wird erfolgreich aktualisiert. |
 
 
 
@@ -38,11 +37,10 @@ Im Moment behandeln wir das Modul 165, das sich mit NoSql befasst. Aus diesem Gr
 | 1    | Datum      | Grundlegene Funktionen implementieren     | Fabian Meyer, Justus Meister |
 | 2    | Datum      | Implementierung spezifischer Funktionen   | Justus Meister          |
 | 3    | Datum      | Integration von Daten aus dem Dateisystem | Fabian Meyer           |
-| 4    | Datum      | Einleitung über das Datenbankprojekt     | Elias Spycher           |
-| 5    | Datum      | Datenbankoperationen optimieren          | Fabian Meyer            |
-| 6    | Datum      | Automatisierung bestimmter Prozesse      | Fabian Meyer            |
-| 7    | Datum      | Testen und Testprotokoll ausfüllen       | Fabian Meyer            |
-| 8    | Datum      | Dokumentation und Bericht erstellen      | Fabian Meyer, Justus Meister |
+| 4    | Datum      | Datenbankoperationen optimieren          | Fabian Meyer            |
+| 5    | Datum      | Automatisierung bestimmter Prozesse      | Fabian Meyer            |
+| 6    | Datum      | Testen und Testprotokoll ausfüllen       | Fabian Meyer            |
+| 7    | Datum      | Dokumentation und Bericht erstellen      | Fabian Meyer, Justus Meister |
 
 ### Testprotokoll
 
@@ -54,5 +52,4 @@ Im Moment behandeln wir das Modul 165, das sich mit NoSql befasst. Aus diesem Gr
 | 4.1  | 21.6.24 | OK       | Justus Meister |
 | 5.1  | 21.6.24 | OK       | Justus Meister |
 
-### Testfälle
 
